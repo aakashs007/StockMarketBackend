@@ -4,7 +4,7 @@ const Locals = require('../../providers/locals').config();
 
 const options = {
   secretOrKey: Locals.secret_key,
-  issuer: 'SoPa',
+  issuer: 'aakash',
   jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken()
 }
 
