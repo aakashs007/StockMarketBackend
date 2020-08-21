@@ -1,0 +1,52 @@
+{
+  "name": "stock-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js production",
+    "dev": "nodemon index.js dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect index.js dev"
+  },
+  "engines": {
+    "node": ">10.0.0"
+  },
+  "author": "Sopa",
+  "license": "SoPa",
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/*/node_modules"
+    ],
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "dev",
+      "PORT": 3005
+    }
+  },
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "helmet": "^3.20.0",
+    "jsonwebtoken": "^8.5.1",
+    "loglevel": "^1.6.6",
+    "lusca": "^1.6.1",
+    "mongodb": "^3.6.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.4",
+    "request": "^2.88.0"
+  }
+}
