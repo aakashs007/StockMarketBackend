@@ -12,7 +12,7 @@ class Statics {
 		Log.info('Booting the \'Statics\' middleware...');
 
 		// Load Statics
-		_express.use('/public', express.static(path.join(__dirname, '../../public')));
+		_express.use('/', express.static(path.join(__dirname, '../../../public/build')));
 
 		return _express;
 	}

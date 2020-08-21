@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,WACE,UAAY,CACb,OAOC,cAAgB,CACjB,UAGC,cAAe,CAChB,WAGC,kBAAmB,CACnB,eAAgB,CAChB,sBAAuB,CAnBzB,YACE,uBAAyB,CACzB,eAAiB,CACjB,+BAAgC,CACjC,cAGC,aAAc,CACf,WAGC,cAAe,CAXjB,UACE,eAAiB,CACjB,aAAc","file":"main.9b10fc77.chunk.css","sourcesContent":[".sub-text {\n  font-size: 0.85em;\n  color: #999292;\n}"]}
